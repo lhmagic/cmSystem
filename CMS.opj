@@ -38,7 +38,7 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
-       "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DRC")
+       "D:\Project\2018\CentralizedMonitoringSystem\hardware\CMS.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -98,6 +98,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CONN SOCKET 16"
+      (FullPartName "CONN SOCKET 16.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     ("CONN RCPT 17"
       (FullPartName "CONN RCPT 17.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -193,98 +197,50 @@
     ("CONN PCB 6"
       (FullPartName "CONN PCB 6.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("CONN PCB 10"
-      (FullPartName "CONN PCB 10.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "D:\Projects\KMS\2018\CentralizedMonitoringSystem\hardware\cms.dsn")
-      (Path "Design Resources"
-         "D:\Projects\KMS\2018\CentralizedMonitoringSystem\hardware\cms.dsn"
-         "CMS")
+      (Path "Design Resources" ".\cms.dsn")
+      (Path "Design Resources" ".\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources"
-         "D:\Projects\KMS\2018\CentralizedMonitoringSystem\hardware\cms.dsn"))
+      (Select "Design Resources" ".\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 937"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 757"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1554 200 709")
-        (Scroll "8 48")
-        (Zoom "400")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1138 50 429")
+        (Scroll "82 158")
+        (Zoom "200")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "01_Power"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 225 1583 225 738")
-        (Scroll "-70 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "02_MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1358 0 513")
-        (Scroll "-70 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "03_Display"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1533 175 688")
-        (Scroll "-164 0")
-        (Zoom "84")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "04_Comm&DC_AI/DI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1483 125 638")
-        (Scroll "115 0")
-        (Zoom "168")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "07_Misc"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1383 25 538")
-        (Scroll "160 573")
-        (Zoom "168")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
       (Page "05_AC_Analog"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1533 175 688")
-        (Scroll "-70 0")
+        (Placement "44 2 3 -1 -1 -8 -30 75 1163 75 458")
+        (Scroll "526 77")
+        (Zoom "126")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Schematic "CMS")
+      (Page "07_Misc"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1188 100 483")
+        (Scroll "0 300")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "06_AC_Digital")))
-  (MPSSessionName "Administrator")
+      (Page "04_Comm&DC_AI/DI")))
+  (MPSSessionName "lhmagic")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))
