@@ -214,9 +214,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1138 50 429")
-        (Scroll "82 158")
-        (Zoom "200")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1138 50 429")
+        (Scroll "-33 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
@@ -224,8 +224,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1163 75 458")
-        (Scroll "526 77")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1163 75 458")
+        (Scroll "0 77")
         (Zoom "126")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -235,12 +235,22 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1188 100 483")
-        (Scroll "0 300")
+        (Scroll "0 290")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "04_Comm&DC_AI/DI")))
+      (Page "04_Comm&DC_AI/DI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1217 125 508")
+        (Scroll "-154 0")
+        (Zoom "63")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Schematic "CMS")
+      (Page "06_AC_Digital")))
   (MPSSessionName "lhmagic")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))
