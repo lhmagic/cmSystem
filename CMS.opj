@@ -215,8 +215,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 1138 50 429")
-        (Scroll "-33 0")
-        (Zoom "100")
+        (Scroll "0 108")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
