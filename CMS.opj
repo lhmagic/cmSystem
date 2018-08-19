@@ -13,7 +13,7 @@
     (Board_sim_option "VHDL_flow")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "1")
+    (ANNOTATE_Action "3")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -27,8 +27,7 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (IREFReportFile
-       "D:\PROJECTS\KMS\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\.csv")
+    (IREFReportFile "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\.csv")
     (IREFViewOutput "0")
     (DRC_Scope "0")
     (DRC_Action "0")
@@ -201,10 +200,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\cms.dsn")
-      (Path "Design Resources" ".\cms.dsn" "CMS")
+      (Path "Design Resources"
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn")
+      (Path "Design Resources"
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources" ".\cms.dsn" "CMS"))
+      (Select "Design Resources"
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS"
+         "03_Display"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -214,18 +217,18 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1138 50 429")
-        (Scroll "-152 0")
-        (Zoom "63")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1113 25 404")
+        (Scroll "193 0")
+        (Zoom "123")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "05_AC_Analog"))
+      (Page "04_Comm&DC_AI/DI"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1163 75 458")
-        (Scroll "1525 197")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1142 50 433")
+        (Scroll "1445 260")
         (Zoom "252")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -234,28 +237,28 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1188 100 483")
-        (Scroll "-152 0")
-        (Zoom "63")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1167 75 458")
+        (Scroll "0 70")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "04_Comm&DC_AI/DI"))
+      (Page "05_AC_Analog"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1217 125 508")
-        (Scroll "-154 0")
-        (Zoom "63")
+        (Placement "44 2 1 0 531 -8 -30 125 1217 125 508")
+        (Scroll "18 105")
+        (Zoom "130")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "06_AC_Digital"))
+      (Page "03_Display"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 150 1242 150 533")
-        (Scroll "228 0")
+        (Scroll "139 0")
         (Zoom "126")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -270,17 +273,17 @@
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "02_MCU"))
+      (Page "06_AC_Digital"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 1092 0 383")
-        (Scroll "0 70")
-        (Zoom "100")
+        (Scroll "0 814")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "03_Display")))
+      (Page "02_MCU")))
   (MPSSessionName "lhmagic")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))

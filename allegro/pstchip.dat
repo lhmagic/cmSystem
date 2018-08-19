@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-16-2018 at 22:37:35}
+{ Using PSTWRITER 17.2.0 d001Aug-19-2018 at 20:29:55}
 primitive 'CAP NP_C0603_0.1UF';
   pin
     '1':
@@ -711,21 +711,6 @@ primitive 'RES_R0603_20K';
   body
     PART_NAME='RES';
     JEDEC_TYPE='R0603';
-    VALUE='20K';
-  end_body;
-end_primitive;
-primitive 'RES_R0805_20K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RES';
-    JEDEC_TYPE='R0805';
     VALUE='20K';
   end_body;
 end_primitive;

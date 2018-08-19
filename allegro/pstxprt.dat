@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Aug-16-2018 at 22:37:35 }
+{ Using PSTWRITER 17.2.0 d001Aug-19-2018 at 20:29:55 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='CMS';
@@ -496,52 +496,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D17 'LED_LED-3MM_GREEN':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS572671@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins572671@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins572671@discrete.\led.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- D18 'LED_LED-3MM_GREEN':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS586326@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins586326@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins586326@discrete.\led.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- D19 'LED_LED-3MM_GREEN':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS586362@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins586362@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins586362@discrete.\led.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  D2 'DIODE TVS_SMA_SMAJ36CA':;
 
 SECTION_NUMBER 1
  '@CMS.CMS(SCH_1):INS560035@DISCRETE.DIODE TVS.NORMAL(CHIPS)':
  C_PATH='@cms.cms(sch_1):ins560035@discrete.\diode tvs.normal\(chips)',
  P_PATH='@cms.cms(sch_1):page2_ins560035@discrete.\diode tvs.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- D20 'LED_LED-3MM_GREEN':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS586388@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins586388@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins586388@discrete.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1364,46 +1324,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R24 'RES_R0603_1K':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS574947@PRIMARY.RES.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins574947@primary.\res.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins574947@primary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R25 'RES_R0603_1K':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS586069@PRIMARY.RES.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins586069@primary.\res.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins586069@primary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R26 'RES_R0603_1K':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS586095@PRIMARY.RES.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins586095@primary.\res.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins586095@primary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R27 'RES_R0603_1K':;
-
-SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS586121@PRIMARY.RES.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins586121@primary.\res.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins586121@primary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  R28 'RES_R0603_100K':;
 
 SECTION_NUMBER 1
@@ -1548,7 +1468,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R40 'RES_R0805_20K':;
+ R40 'RES_R0603_20K':;
 
 SECTION_NUMBER 1
  '@CMS.CMS(SCH_1):INS558333@PRIMARY.RES.NORMAL(CHIPS)':
@@ -1568,7 +1488,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R42 'RES_R0805_20K':;
+ R42 'RES_R0603_20K':;
 
 SECTION_NUMBER 1
  '@CMS.CMS(SCH_1):INS558718@PRIMARY.RES.NORMAL(CHIPS)':
