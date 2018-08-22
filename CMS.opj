@@ -36,7 +36,8 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "E:\CMSYSTEM\CMS.DRC")
+    (DRC_Report_File
+       "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -89,7 +90,7 @@
     ("Allegro Backannotation Netlist Directory" "allegro")
     ("Allegro Backannotation Output File" "allegro\CMS.swp")
     ("Allegro Backannotation Update Schematic" "TRUE")
-    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Backannotation View Output" "TRUE")
     ("Allegro Setup Output Warnings" "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
