@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-22-2018 at 16:23:08}
+{ Using PSTWRITER 17.2.0 d001Aug-22-2018 at 17:15:04}
 primitive 'CAP NP_C0603_0.1UF';
   pin
     '1':
@@ -880,6 +880,18 @@ primitive 'SW DIP-4_DIP-4X2_SW DIP-4';
     PART_NAME='SW DIP-4';
     JEDEC_TYPE='DIP-4X2';
     VALUE='SW DIP-4';
+  end_body;
+end_primitive;
+primitive 'TP_TP1_TP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TP';
+    JEDEC_TYPE='TP1';
+    VALUE='TP';
   end_body;
 end_primitive;
 primitive 'MP2451_SOT23-6_MP2451';

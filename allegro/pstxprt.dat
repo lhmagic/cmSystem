@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Aug-22-2018 at 16:23:08 }
+{ Using PSTWRITER 17.2.0 d001Aug-22-2018 at 17:15:04 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='CMS';
@@ -1966,6 +1966,106 @@ SECTION_NUMBER 1
  '@CMS.CMS(SCH_1):INS594328@DISCRETE.SW DIP-4.NORMAL(CHIPS)':
  C_PATH='@cms.cms(sch_1):ins594328@discrete.\sw dip-4.normal\(chips)',
  P_PATH='@cms.cms(sch_1):page8_ins594328@discrete.\sw dip-4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675596@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675596@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page2_ins675596@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP10 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675842@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675842@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page2_ins675842@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675606@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675606@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page2_ins675606@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP3 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675616@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675616@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page2_ins675616@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP4 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675693@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675693@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins675693@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP5 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675703@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675703@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins675703@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP6 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675713@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675713@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins675713@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP7 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675723@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675723@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins675723@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP8 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675782@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675782@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page6_ins675782@primary.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP9 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@CMS.CMS(SCH_1):INS675792@PRIMARY.TP.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins675792@primary.\tp.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page6_ins675792@primary.\tp.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
