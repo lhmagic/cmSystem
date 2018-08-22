@@ -79,7 +79,18 @@
     ("Allegro Setup Part Type Length" "31")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.SWP")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File" "allegro\CMS.brd")
+    ("Allegro Backannotation Netlist Directory" "allegro")
+    ("Allegro Backannotation Output File" "allegro\CMS.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -93,7 +104,22 @@
     (File ".\cms.drc"
       (Type "Report"))
     (File ".\.csv"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\cms.swp"
+      (Type "Report")
+      (DisplayName "CMS.swp")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (TP
@@ -199,86 +225,46 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "E:\cmSystem\cms.dsn")
-      (Path "Design Resources" "E:\cmSystem\cms.dsn" "CMS")
+      (Path "Design Resources" ".\cms.dsn")
+      (Path "Design Resources" ".\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources" "E:\cmSystem\cms.dsn"))
+      (Select "Design Resources" ".\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 937"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 757"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1354 25 549")
-        (Scroll "-44 110")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1138 50 429")
+        (Scroll "0 290")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
-      (Schematic "CMS")
-      (Page "01_Power"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1383 50 578")
-        (Scroll "-151 0")
-        (Zoom "84")
-        (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
-      (Schematic "CMS")
-      (Page "07_Misc"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1408 75 603")
-        (Scroll "-151 0")
-        (Zoom "84")
-        (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
       (Page "04_Comm&DC_AI/DI"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1433 100 628")
-        (Scroll "-151 0")
-        (Zoom "84")
-        (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
-      (Schematic "CMS")
-      (Page "02_MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1458 125 653")
-        (Scroll "-122 0")
-        (Zoom "89")
-        (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
-      (Schematic "CMS")
-      (Page "03_Display"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1215 150 663")
-        (Scroll "-17 0")
-        (Zoom "84")
-        (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
-      (Schematic "CMS")
-      (Page "05_AC_Analog"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1240 175 688")
-        (Scroll "0 120")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1167 75 458")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "06_AC_Digital")))
-  (MPSSessionName "Administrator")
+      (Page "06_AC_Digital"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1192 100 483")
+        (Scroll "-33 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Schematic "CMS")
+      (Page "01_Power")))
+  (MPSSessionName "lhmagic")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))
