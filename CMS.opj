@@ -226,10 +226,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\cms.dsn")
-      (Path "Design Resources" ".\cms.dsn" "CMS")
+      (Path "Design Resources"
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn")
+      (Path "Design Resources"
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources" ".\cms.dsn"))
+      (Select "Design Resources"
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

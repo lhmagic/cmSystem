@@ -1,0 +1,23 @@
+M48
+INCH
+T01C.004
+;EXTENTS: -7.537  -8.737  13.463  8.263   
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : D:/Project/2018/CentralizedMonitoringSystem/hardware/allegro/gerber/CMS_1-2.rou for board D:/Project/2018/CentralizedMonitoringSystem/hardware/allegro/#Taaaaal03700.tmp, layers TOP to BOTTOM
+%
+G90
+F1
+M16
+T01
+M16
+G00X0041339Y0236220
+M15
+G01X0448818Y0236220
+G03X0448818Y0250000A0006890
+G01X0041339Y0250000
+G03X0041339Y0236220A0006890
+M16
+G40
+M30
