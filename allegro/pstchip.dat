@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-19-2018 at 20:29:55}
+{ Using PSTWRITER 17.2.0 d001Aug-22-2018 at 16:23:08}
 primitive 'CAP NP_C0603_0.1UF';
   pin
     '1':
@@ -513,7 +513,7 @@ primitive 'INDUCTOR_R0603_CBG160808U600T';
     VALUE='CBG160808U600T';
   end_body;
 end_primitive;
-primitive 'BUZZER_BZ12095_BZ12095';
+primitive 'BUZZER_BZ09B_BZ09B';
   pin
     'A':
       PIN_NUMBER='(1)';
@@ -524,8 +524,8 @@ primitive 'BUZZER_BZ12095_BZ12095';
   end_pin;
   body
     PART_NAME='BUZZER';
-    JEDEC_TYPE='BZ12095';
-    VALUE='BZ12095';
+    JEDEC_TYPE='BZ09B';
+    VALUE='BZ09B';
   end_body;
 end_primitive;
 primitive 'PMOS_SOT23-3_BSS84LT1G';
@@ -817,21 +817,6 @@ primitive 'RES_R0603_3K';
     PART_NAME='RES';
     JEDEC_TYPE='R0603';
     VALUE='3K';
-  end_body;
-end_primitive;
-primitive 'RES_R0603_220K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RES';
-    JEDEC_TYPE='R0603';
-    VALUE='220K';
   end_body;
 end_primitive;
 primitive 'SW-PB-2_SW-3X6_SW-PB-2';

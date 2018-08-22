@@ -36,8 +36,7 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File
-       "D:\Project\2018\CentralizedMonitoringSystem\hardware\CMS.DRC")
+    (DRC_Report_File "E:\CMSYSTEM\CMS.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -201,14 +200,65 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\cms.dsn")
+      (Path "Design Resources" ".\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources" ".\cms.dsn" "CMS"))
+      (Select "Design Resources" ".\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 937"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 977"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1354 25 549")
+        (Scroll "0 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Schematic "CMS")
+      (Page "01_Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1383 50 578")
+        (Scroll "2278 1392")
+        (Zoom "356")
+        (Occurrence "/"))
+      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Schematic "CMS")
+      (Page "07_Misc"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1408 75 603")
+        (Scroll "-122 0")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Schematic "CMS")
+      (Page "04_Comm&DC_AI/DI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1433 100 628")
+        (Scroll "701 206")
+        (Zoom "356")
+        (Occurrence "/"))
+      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Schematic "CMS")
+      (Page "02_MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1458 125 653")
+        (Scroll "1816 292")
+        (Zoom "356")
+        (Occurrence "/"))
+      (Path "E:\CMSYSTEM\CMS.DSN")
+      (Schematic "CMS")
+      (Page "03_Display")))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))

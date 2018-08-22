@@ -8,6 +8,7 @@
 *.log
 *.tag
 *.bak
+*.rpt
 *[0-9]
 *lck
 stepFacetFiles4Map/
