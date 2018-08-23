@@ -1,16 +1,26 @@
 M48
 INCH
-T01C.004
+T01C.003937
+T02C.004
 ;EXTENTS: -7.537  -8.737  13.463  8.263   
 ;LEADER: 12 
 ;HEADER: 
 ;CODE  : ASCII 
-;FILE  : D:/Project/2018/CentralizedMonitoringSystem/hardware/allegro/gerber/CMS_1-2.rou for board D:/Project/2018/CentralizedMonitoringSystem/hardware/allegro/#Taaaaal03700.tmp, layers TOP to BOTTOM
+;FILE  : E:/cmSystem/allegro/gerber/CMS_1-2.rou for board E:/cmSystem/allegro/#Taaaaai02412.tmp, layers TOP to BOTTOM
 %
 G90
 F1
 M16
 T01
+M16
+G00X0413386Y0332677
+M15
+G01X0413386Y0312992
+G02X0399606Y0312992A0006890
+G01X0399606Y0332677
+G02X0413386Y0332677A0006890
+M16
+T02
 M16
 G00X0041339Y0236220
 M15
