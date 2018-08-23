@@ -226,49 +226,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn")
-      (Path "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn"))
+      (Select "Design Resources" ".\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 757"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1138 50 429")
-        (Scroll "0 290")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "04_Comm&DC_AI/DI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1167 75 458")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "06_AC_Digital"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1192 100 483")
-        (Scroll "-33 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
-      (Schematic "CMS")
-      (Page "01_Power")))
-  (MPSSessionName "lhmagic")
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 937"))
+      (Tab 0)))
+  (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))
