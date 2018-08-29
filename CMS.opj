@@ -232,8 +232,7 @@
          "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS")
       (Path "Outputs")
       (Select "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS"
-         "07_Misc"))
+         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -243,13 +242,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1142 50 433")
-        (Scroll "696 70")
-        (Zoom "166")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1142 50 433")
+        (Scroll "-37 0")
+        (Zoom "83")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "07_Misc")))
+      (Page "07_Misc"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 1167 75 458")
+        (Scroll "2572 540")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Schematic "CMS")
+      (Page "02_MCU")))
   (MPSSessionName "lhmagic")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))
