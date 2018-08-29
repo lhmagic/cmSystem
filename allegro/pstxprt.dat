@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Aug-29-2018 at 19:08:32 }
+{ Using PSTWRITER 17.2.0 d001Aug-29-2018 at 21:44:30 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='CMS';
@@ -417,9 +417,9 @@ PART_NAME
  D01 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS599965@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins599965@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins599965@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS686302@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins686302@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins686302@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -427,9 +427,9 @@ PART_NAME
  D02 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS572687@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins572687@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins572687@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS687791@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins687791@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins687791@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -437,9 +437,9 @@ PART_NAME
  D03 'LED_LED-3MM_YELLOW':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS572703@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins572703@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins572703@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS687519@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins687519@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins687519@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -447,9 +447,9 @@ PART_NAME
  D04 'DIODE TVS_SMA_SMAJ36CA':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS561208@DISCRETE.DIODE TVS.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins561208@discrete.\diode tvs.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page5_ins561208@discrete.\diode tvs.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS689148@PRIMARY.DIODE TVS.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins689148@primary.\diode tvs.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins689148@primary.\diode tvs.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -487,9 +487,9 @@ PART_NAME
  D08 'DIODE TVS_SMA_SMAJ36CA':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS560540@DISCRETE.DIODE TVS.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins560540@discrete.\diode tvs.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page5_ins560540@discrete.\diode tvs.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS689600@PRIMARY.DIODE TVS.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins689600@primary.\diode tvs.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins689600@primary.\diode tvs.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -497,9 +497,9 @@ PART_NAME
  D09 'DIODE TVS_SMA_SMAJ36CA':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS560714@DISCRETE.DIODE TVS.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins560714@discrete.\diode tvs.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page5_ins560714@discrete.\diode tvs.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS689458@PRIMARY.DIODE TVS.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins689458@primary.\diode tvs.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins689458@primary.\diode tvs.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -507,9 +507,9 @@ PART_NAME
  D10 'DIODE TVS_SMA_SMAJ36CA':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS561092@DISCRETE.DIODE TVS.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins561092@discrete.\diode tvs.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page5_ins561092@discrete.\diode tvs.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS689306@PRIMARY.DIODE TVS.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins689306@primary.\diode tvs.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page5_ins689306@primary.\diode tvs.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -517,9 +517,9 @@ PART_NAME
  D11 'DIODE ZENER_SOD-323_MZT52C3V6S':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS190434@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins190434@discrete.\diode zener.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page2_ins190434@discrete.\diode zener.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS686179@PRIMARY.DIODE ZENER.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins686179@primary.\diode zener.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page2_ins686179@primary.\diode zener.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -579,9 +579,9 @@ PART_NAME
  D17 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS574659@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins574659@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins574659@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS688255@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins688255@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins688255@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -589,9 +589,9 @@ PART_NAME
  D18 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS574675@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins574675@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins574675@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS688342@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins688342@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins688342@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -599,9 +599,9 @@ PART_NAME
  D19 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS576310@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins576310@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins576310@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS688429@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins688429@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins688429@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -609,9 +609,9 @@ PART_NAME
  D20 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS576336@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins576336@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins576336@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS688516@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins688516@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins688516@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -619,9 +619,9 @@ PART_NAME
  D21 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS600071@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins600071@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins600071@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS687206@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins687206@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins687206@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -629,9 +629,9 @@ PART_NAME
  D22 'LED_LED-3MM_GREEN':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS600013@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins600013@discrete.\led.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page4_ins600013@discrete.\led.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS687050@PRIMARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins687050@primary.\led.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page4_ins687050@primary.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -639,9 +639,9 @@ PART_NAME
  D23 'DIODE TVS_SMA_SMAJ36CA':;
 
 SECTION_NUMBER 1
- '@CMS.CMS(SCH_1):INS560035@DISCRETE.DIODE TVS.NORMAL(CHIPS)':
- C_PATH='@cms.cms(sch_1):ins560035@discrete.\diode tvs.normal\(chips)',
- P_PATH='@cms.cms(sch_1):page2_ins560035@discrete.\diode tvs.normal\(chips)',
+ '@CMS.CMS(SCH_1):INS685980@PRIMARY.DIODE TVS.NORMAL(CHIPS)':
+ C_PATH='@cms.cms(sch_1):ins685980@primary.\diode tvs.normal\(chips)',
+ P_PATH='@cms.cms(sch_1):page2_ins685980@primary.\diode tvs.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "d:\cadence\part\primary.olb"
+        (Type "Schematic Library")))
     (NoModify)
     (File ".\cms.dsn"
       (Type "Schematic Design"))
@@ -123,6 +125,18 @@
       (DisplayName "CMS.swp")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\CADENCE\PART\PRIMARY.OLB")
+      (DeviceIndex "0"))
+    ("DIODE ZENER"
+      (FullPartName "DIODE ZENER.Normal")
+      (LibraryName "D:\CADENCE\PART\PRIMARY.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TVS"
+      (FullPartName "DIODE TVS.Normal")
+      (LibraryName "D:\CADENCE\PART\PRIMARY.OLB")
+      (DeviceIndex "0"))
     (TP
       (FullPartName "TP.Normal")
       (LibraryName "D:\CADENCE\PART\PRIMARY.OLB")
@@ -184,14 +198,6 @@
       (FullPartName "LM358.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
       (DeviceIndex "0"))
-    ("DIODE TVS"
-      (FullPartName "DIODE TVS.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("DIODE ZENER"
-      (FullPartName "DIODE ZENER.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     ("CONN PCB 5"
       (FullPartName "CONN PCB 5.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -218,47 +224,63 @@
     (74HC595
       (FullPartName "74HC595.Normal")
       (LibraryName "D:\CADENCE\PART\PRIMARY.OLB")
-      (DeviceIndex "0"))
-    ("CONN PCB 5x2"
-      (FullPartName "CONN PCB 5x2.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn")
+         "d:\project\2018\centralizedmonitoringsystem\hardware\cms.dsn")
       (Path "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn" "CMS")
+         "d:\project\2018\centralizedmonitoringsystem\hardware\cms.dsn" "CMS")
       (Path "Outputs")
       (Select "Design Resources"
-         "D:\Project\2018\CentralizedMonitoringSystem\hardware\cms.dsn"))
+         "d:\project\2018\centralizedmonitoringsystem\hardware\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 757"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 295 0 757"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1142 50 433")
-        (Scroll "-37 0")
-        (Zoom "83")
+        (Placement "44 0 1 -1 -1 -8 -30 25 774 25 404")
+        (Scroll "0 0")
+        (Zoom "63")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "07_Misc"))
+      (Page "03_Display"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1167 75 458")
-        (Scroll "2572 540")
-        (Zoom "400")
+        (Placement "44 0 1 -1 -1 -8 -30 0 753 0 383")
+        (Scroll "496 277")
+        (Zoom "252")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
-      (Page "02_MCU")))
+      (Page "01_Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 803 50 433")
+        (Scroll "0 0")
+        (Zoom "63")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Schematic "CMS")
+      (Page "02_MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 828 75 458")
+        (Scroll "1150 937")
+        (Zoom "252")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
+      (Schematic "CMS")
+      (Page "04_Comm&DC_AI/DI")))
   (MPSSessionName "lhmagic")
   (LastUsedLibraryBrowseDirectory "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY")
   (ISPCBBASICLICENSE "false"))

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-29-2018 at 19:08:32}
+{ Using PSTWRITER 17.2.0 d001Aug-29-2018 at 21:44:30}
 primitive 'CAP NP_C0603_10UF';
   pin
     '1':
@@ -182,11 +182,11 @@ primitive 'CAP NP_C0805_2.2UF/50V';
 end_primitive;
 primitive 'LED_LED-3MM_GREEN';
   pin
-    'ANODE':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'CATHODE':
       PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'ANODE':
+      PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
@@ -197,11 +197,11 @@ primitive 'LED_LED-3MM_GREEN';
 end_primitive;
 primitive 'LED_LED-3MM_YELLOW';
   pin
-    'ANODE':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'CATHODE':
       PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'ANODE':
+      PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
@@ -213,10 +213,10 @@ end_primitive;
 primitive 'DIODE TVS_SMA_SMAJ36CA';
   pin
     'ANODE':
-      PIN_NUMBER='(2)';
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'CATHODE':
-      PIN_NUMBER='(1)';
+      PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
@@ -251,7 +251,7 @@ primitive 'DIODE ZENER_SOD-323_MZT52C3V6S';
   end_pin;
   body
     PART_NAME='DIODE ZENER';
-    JEDEC_TYPE='SOD-323';
+    JEDEC_TYPE='sod-323';
     VALUE='MZT52C3V6S';
   end_body;
 end_primitive;
