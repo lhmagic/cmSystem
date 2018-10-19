@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Oct-18-2018 at 22:35:42}
+{ Using PSTWRITER 17.2.0 d001Oct-20-2018 at 03:47:05}
 primitive 'CAP NP_C0603_10UF';
   pin
     '1':
@@ -789,6 +789,21 @@ primitive 'RES_R0603_1.2K';
     VALUE='1.2K';
   end_body;
 end_primitive;
+primitive 'RES_R0603_820R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RES';
+    JEDEC_TYPE='R0603';
+    VALUE='820R';
+  end_body;
+end_primitive;
 primitive 'RES_R0805_2R';
   pin
     '1':
@@ -1276,7 +1291,7 @@ primitive 'MP2451_SOT23-6_MP2451';
     VALUE='MP2451';
   end_body;
 end_primitive;
-primitive 'CRYSTAL-1_SMD3225-4_16MHZ';
+primitive 'CRYSTAL-1_SMD3225-4_12MHZ';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1294,7 +1309,7 @@ primitive 'CRYSTAL-1_SMD3225-4_16MHZ';
   body
     PART_NAME='CRYSTAL-1';
     JEDEC_TYPE='SMD3225-4';
-    VALUE='16MHz';
+    VALUE='12MHz';
   end_body;
 end_primitive;
 END.

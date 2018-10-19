@@ -231,7 +231,7 @@
       (Path "Design Resources" ".\cms.dsn")
       (Path "Design Resources" ".\cms.dsn" "CMS")
       (Path "Outputs")
-      (Select "Design Resources" ".\cms.dsn" "CMS"))
+      (Select "Design Resources" ".\cms.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -242,7 +242,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1142 50 433")
-        (Scroll "1094 1224")
+        (Scroll "1094 1117")
         (Zoom "200")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -252,8 +252,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 75 1167 75 458")
-        (Scroll "1702 1654")
-        (Zoom "252")
+        (Scroll "0 117")
+        (Zoom "126")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
       (Schematic "CMS")
@@ -261,8 +261,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1192 100 483")
-        (Scroll "0 407")
+        (Placement "44 2 3 -1 -1 -8 -30 100 1192 100 483")
+        (Scroll "-33 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -272,7 +272,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 1217 125 508")
-        (Scroll "1702 1654")
+        (Scroll "1053 363")
         (Zoom "252")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -282,7 +282,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 150 1242 150 533")
-        (Scroll "0 407")
+        (Scroll "0 290")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -311,8 +311,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1117 25 408")
-        (Scroll "-249 52")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1117 25 408")
+        (Scroll "-154 0")
         (Zoom "63")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
