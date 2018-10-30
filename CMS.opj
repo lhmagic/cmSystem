@@ -261,8 +261,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1192 100 483")
-        (Scroll "-33 0")
+        (Placement "44 0 1 -1 -1 -8 -30 100 1192 100 483")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
@@ -292,7 +292,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1267 175 558")
-        (Scroll "225 622")
+        (Scroll "0 52")
         (Zoom "126")
         (Occurrence "/"))
       (Path "D:\PROJECT\2018\CENTRALIZEDMONITORINGSYSTEM\HARDWARE\CMS.DSN")
