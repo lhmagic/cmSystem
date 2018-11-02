@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Oct-20-2018 at 04:36:53}
+{ Using PSTWRITER 17.2.0 d001Nov-02-2018 at 14:45:21}
 primitive 'CAP NP_C0603_10UF';
   pin
     '1':
@@ -564,7 +564,7 @@ primitive 'PMOS_SOT23-3_BSS84LT1G';
     VALUE='BSS84LT1G';
   end_body;
 end_primitive;
-primitive 'RES_R2010_220K';
+primitive 'RES_R2010_221K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -576,7 +576,7 @@ primitive 'RES_R2010_220K';
   body
     PART_NAME='RES';
     JEDEC_TYPE='R2010';
-    VALUE='220K';
+    VALUE='221K';
   end_body;
 end_primitive;
 primitive 'RES_R0603_12K';
